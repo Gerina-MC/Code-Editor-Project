@@ -1,0 +1,45 @@
+
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  transition-duration: 0.1s;
+  cursor: hand;
+}
+
+.button1 {
+  background-color: white; 
+  color: #2196F3;
+  border: 2px solid #2196F3;
+}
+
+.button1:hover {
+  background-color: #2196F3;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  color: #0cb920;
+  border: 2px solid #0cb920;
+}
+
+.button2:hover {
+  background-color: #0cb920;
+  color: white;
+}
+
+textarea {
+  padding: 10px;
+}
+.label-in-textarea {
+  position: relative;
+}
+.label-in-textarea > label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
