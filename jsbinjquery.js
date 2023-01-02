@@ -9,14 +9,14 @@ $(document).ready(function() {
     $("#js").height((hei/2));
     $("#bht").click(function() {
         $("#dht").slideToggle(0.0000000000001);
-    })
+    });
     $("#bcs").click(function() {
         $("#dcs").slideToggle(0.0000000000001);
-    })
+    });
     $("#bjs").click(function() {
         $("#djs").slideToggle(0.0000000000001);
-    })
+    });
     $("#bre").click(function() {
         $("#dre").slideToggle(0.0000000000001);
-    })
+    });
 });
