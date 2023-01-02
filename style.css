@@ -33,13 +33,16 @@
 }
 
 textarea {
-  padding: 10px;
+  min-height: 100px;
+  max-height: 500px;
 }
 .label-in-textarea {
   position: relative;
+  float: left;
 }
+
 .label-in-textarea > label {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
 }
