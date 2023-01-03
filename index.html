@@ -21,8 +21,15 @@
                 <button type="button" class="button button1" id="bjs">JS</button>
                 <button type="button" class="button button1" id="bre">Result</button>
             </div>
+            <div style="float: right">
+                <label for="ch"><b>HTML Mode</b></label>
+                <input id="ch" type="checkbox"> 
+            </div>
             <div>
                 <button class="button button2" style="float: right" id="run">Run</button>
+            </div>
+            <div>
+                <button class="button button3" style="float: right" id="rst">Reset</button>
             </div>
         </nav>
         <div id="win" style="float:left">
@@ -41,7 +48,7 @@
         </div>
         <div id="dre" style="float: left">
             <b>Result</b><br>
-            <iframe id="ifr" sandbox="allow-scripts allow-same-origin"></iframe>
+            <iframe id="ifr" srcdoc="" sandbox="allow-scripts allow-same-origin"></iframe>
         </div>
     </body>
 </html>

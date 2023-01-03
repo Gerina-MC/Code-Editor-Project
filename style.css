@@ -32,6 +32,17 @@
   color: white;
 }
 
+.button3 {
+  background-color: white; 
+  color: red;
+  border: 2px solid red;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+}
+
 textarea {
   resize: none;
 }
@@ -49,4 +60,10 @@ iframe {
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.button1:disabled {
+  border: 2px solid grey;
+  background-color: grey;
+  color: black;
 }
