@@ -45,11 +45,22 @@ $(document).ready(function() {
             fl=0;
             if(f1==0)
             {
+                f1=1;
                 $("#dht").slideToggle(0.0000000000001);
             }
             h.width(wid/3);
             c.width(wid/3);
             j.width(wid/3);
+            if(f4==1)
+            {
+                c.height(hei/2);
+                j.height(hei/2);
+            }
+            else
+            {
+                c.height(hei);
+                j.height(hei);
+            }
             $("#dcs").slideToggle(0.0000000000001);
             $("#djs").slideToggle(0.0000000000001);
             f2=1;
