@@ -22,25 +22,26 @@
                 <button type="button" class="button button1" id="bre">Result</button>
             </div>
             <div>
-                <button class="button button2" style="float: right">Run</button>
+                <button class="button button2" style="float: right" id="run">Run</button>
             </div>
         </nav>
         <div id="win" style="float:left">
-        <div id="dht" class="label-in-textarea">
-        <label for="html">HTML</label>
-        <textarea id="html"></textarea>
+            <div id="dht" class="label-in-textarea">
+                <label for="html"><b>HTML</b></label>
+                <textarea id="html"></textarea>
+            </div>
+            <div id="dcs" class="label-in-textarea">
+                <label for="css"><b>CSS</b></label>
+                <textarea id="css"></textarea>
+            </div>
+            <div id="djs" class="label-in-textarea">
+                <label for="js"><b>JS</b></label>
+                <textarea id="js"></textarea>
+            </div>
         </div>
-        <div id="dcs" class="label-in-textarea">
-        <label for="css">CSS</label>
-        <textarea id="css"></textarea>
-        </div>
-        <div id="djs" class="label-in-textarea">
-        <label for="js">JS</label>
-        <textarea id="js"></textarea>
-        </div>
-        </div>
-        <div id="dre">
-            Result
+        <div id="dre" style="float: left">
+            <b>Result</b><br>
+            <iframe id="ifr"></iframe>
         </div>
     </body>
 </html>

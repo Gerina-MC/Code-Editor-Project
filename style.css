@@ -33,8 +33,7 @@
 }
 
 textarea {
-  min-height: 100px;
-  max-height: 500px;
+  resize: none;
 }
 .label-in-textarea {
   position: relative;
@@ -45,4 +44,9 @@ textarea {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+iframe {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
