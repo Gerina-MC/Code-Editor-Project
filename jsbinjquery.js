@@ -226,7 +226,7 @@ $(document).ready(function() {
         var bod=content.find('body');
         bod.html(code);
         st.text(cs);
-        var sc=bod.append('<script></script>').children('script');
-        sc.text(jas);
+        var scriptTag = "<script>"+jas+"<\/script>";
+        bod.append(scriptTag);
     });
 });
