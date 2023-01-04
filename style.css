@@ -12,15 +12,17 @@
 }
 
 .button1 {
-  background-color: white; 
-  color: #2196F3;
+  background-color: #2196f3; 
+  color: white;
   border: 2px solid #2196F3;
 }
 
-.button1:hover {
-  background-color: #2196F3;
-  color: white;
+.button1:disabled {
+  border: 2px solid grey;
+  background-color: grey;
+  color: black;
 }
+
 .button2 {
   background-color: white; 
   color: #0cb920;

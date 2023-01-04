@@ -40,16 +40,26 @@ $(document).ready(function() {
             h.width(wid);
             if(f1==0)
             {
+                $("#bht").css('background-color','#2196F3');
+                $("#bht").css('color','white');
                 $("#dht").slideToggle(0.0000000000001);
                 f1=1;
             }
             if(f4==0)
             {
+                $("#bre").css('background-color','#2196F3');
+                $("#bre").css('color','white');
                 $("#dre").slideToggle(0.0000000000001);
                 f4=1;
             }
             h.height(hei/2);
             f.height(hei/2);
+            $("#bcs").css('background-color','grey');
+            $("#bcs").css('color','black');
+            $("#bcs").css('border','2px solid grey');
+            $("#bjs").css('background-color','grey');
+            $("#bjs").css('color','black');
+            $("#bjs").css('border','2px solid grey');
             $("#bcs").prop('disabled', true);
             $("#bjs").prop('disabled', true);
         }
@@ -58,6 +68,8 @@ $(document).ready(function() {
             if(f1==0)
             {
                 f1=1;
+                $("#bht").css('background-color','#2196F3');
+                $("#bht").css('color','white');
                 $("#dht").slideToggle(0.0000000000001);
             }
             h.width(wid/3);
@@ -75,6 +87,12 @@ $(document).ready(function() {
                 c.height(hei);
                 j.height(hei);
             }
+            $("#bcs").css('background-color','#2196F3');
+            $("#bcs").css('color','white');
+            $("#bcs").css('border','2px solid #2196F3');
+            $("#bjs").css('background-color','#2196F3');
+            $("#bjs").css('color','white');
+            $("#bjs").css('border','2px solid #2196F3');
             $("#dcs").slideToggle(0.0000000000001);
             $("#djs").slideToggle(0.0000000000001);
             f2=1;
@@ -87,6 +105,8 @@ $(document).ready(function() {
         $("#dht").slideToggle(0.0000000000001);
         if(f1==1)
         {
+            $("#bht").css('background-color','white');
+            $("#bht").css('color','#2196F3');
             f1=0;
             if(f2==1 && f3==1)
             {
@@ -111,6 +131,8 @@ $(document).ready(function() {
         }
         else
         {
+            $("#bht").css('background-color','#2196F3');
+            $("#bht").css('color','white');
             f1=1;
             if(f4==1)
             {
@@ -146,6 +168,8 @@ $(document).ready(function() {
         $("#dcs").slideToggle(0.0000000000001);
         if(f2==1)
         {
+            $("#bcs").css('background-color','white');
+            $("#bcs").css('color','#2196F3');
             f2=0;
             if(f1==1 && f3==1)
             {
@@ -170,6 +194,8 @@ $(document).ready(function() {
         }
         else
         {
+            $("#bcs").css('background-color','#2196F3');
+            $("#bcs").css('color','white');
             f2=1;
             if(f4==1)
             {
@@ -205,6 +231,8 @@ $(document).ready(function() {
         $("#djs").slideToggle(0.0000000000001);
         if(f3==1)
         {
+            $("#bjs").css('background-color','white');
+            $("#bjs").css('color','#2196F3');
             f3=0;
             if(f1==1 && f2==1)
             {
@@ -229,6 +257,8 @@ $(document).ready(function() {
         }
         else
         {
+            $("#bjs").css('background-color','#2196F3');
+            $("#bjs").css('color','white');
             f3=1;
             if(f4==1)
             {
@@ -264,6 +294,8 @@ $(document).ready(function() {
         $("#dre").slideToggle(0.0000000000001);
         if(f4==1)
         {
+            $("#bre").css('background-color','white');
+            $("#bre").css('color','#2196F3');
             f4=0;
             h.height(hei);
             c.height(hei);
@@ -271,6 +303,8 @@ $(document).ready(function() {
         }
         else
         {
+            $("#bre").css('background-color','#2196F3');
+            $("#bre").css('color','white');
             f4=1;
             if(f1==1 || f2==1 || f3==1)
             {
