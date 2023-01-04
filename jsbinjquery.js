@@ -53,11 +53,13 @@ $(document).ready(function() {
             j.width(wid/3);
             if(f4==1)
             {
+                h.height(hei/2);
                 c.height(hei/2);
                 j.height(hei/2);
             }
             else
             {
+                h.height(hei);
                 c.height(hei);
                 j.height(hei);
             }
