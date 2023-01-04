@@ -38,6 +38,16 @@ $(document).ready(function() {
                 f3=0;
             }
             h.width(wid);
+            if(f1==0)
+            {
+                $("#dht").slideToggle(0.0000000000001);
+                f1=1;
+            }
+            if(f4==0)
+            {
+                $("#dre").slideToggle(0.0000000000001);
+                f4=1;
+            }
             $("#bcs").prop('disabled', true);
             $("#bjs").prop('disabled', true);
         }
