@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/7733acf823.js" crossorigin="anonymous"></script>
         <script src="jsbinjquery.js"></script>
         <title>Online Code Editor</title>
     </head>
@@ -34,21 +35,21 @@
         </nav>
         <div id="win" style="float:left">
             <div id="dht" class="label-in-textarea">
-                <label for="html"><b>HTML</b></label>
+                <label for="html"><b>HTML</b><i class="fa-brands fa-html5" style="color:#e44d26"></i></label>
                 <textarea id="html"></textarea>
             </div>
             <div id="dcs" class="label-in-textarea">
-                <label for="css"><b>CSS</b></label>
+                <label for="css"><b>CSS</b><i class="fa-brands fa-css3-alt" style="color:#2196f3"></i></label>
                 <textarea id="css"></textarea>
             </div>
             <div id="djs" class="label-in-textarea">
-                <label for="js"><b>JS</b></label>
+                <label for="js"><b>JS</b><i class="fa-brands fa-js" style="color:#ffdf00"></i></label>
                 <textarea id="js"></textarea>
             </div>
         </div>
         <div id="dre" style="float: left">
             <b>Result</b><br>
-            <iframe id="ifr" srcdoc=""></iframe>
+            <iframe id="ifr" srcdoc="" sandbox="allow-scripts"></iframe>
         </div>
     </body>
 </html>
