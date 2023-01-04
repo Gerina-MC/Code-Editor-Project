@@ -48,6 +48,8 @@ $(document).ready(function() {
                 $("#dre").slideToggle(0.0000000000001);
                 f4=1;
             }
+            h.height(hei/2);
+            f.height(hei/2);
             $("#bcs").prop('disabled', true);
             $("#bjs").prop('disabled', true);
         }
