@@ -323,7 +323,7 @@ $(document).ready(function() {
         var code=$("#html").val();
         if(fl==0){
         var cs=$("#css").val();
-        var jas=$("#js").val();
+        var jas=$("#js").val("dfgh");
         var fr=$("#ifr");
         var content=fr.contents();
         var st=content.find('head').append('<style></style>').children('style');
