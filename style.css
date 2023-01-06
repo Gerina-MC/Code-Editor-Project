@@ -42,6 +42,7 @@
 
 textarea {
   resize: none;
+  font-family: sans-serif;
 }
 .label-in-textarea {
   position: relative;
