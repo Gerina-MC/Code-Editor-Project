@@ -13,7 +13,7 @@ $(document).ready(function() {
     c.width(wid/3);
     j.width(wid/3);
     f.width(wid+18);
-    var f1=1,f2=1,f3=1,f4=1,fl=0;
+    var f1=1,f2=1,f3=1,f4=1;
     $('#rst').click(function(){
         $("#html").val("");
         $("#css").val("");
