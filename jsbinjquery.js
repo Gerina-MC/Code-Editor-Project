@@ -14,7 +14,7 @@ $(document).ready(function() {
     j.width(wid/3);
     f.width(wid+18);
     var f1=1,f2=1,f3=1,f4=1;
-    window.addEventListener( "orientationchange", function() {
+    $(window).resize(function() {
         wid=$(window).width()-35;
         hei=$(window).height()-$('.navbar').height()-59;
         f.width(wid+18);
@@ -98,7 +98,7 @@ $(document).ready(function() {
                 j.width(wid+12);
             }
         }
-    },false);
+    });
     $('#rst').click(function(){
         $("#html").val("");
         $("#css").val("");
