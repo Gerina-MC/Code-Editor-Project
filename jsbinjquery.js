@@ -14,6 +14,91 @@ $(document).ready(function() {
     j.width(wid/3);
     f.width(wid+18);
     var f1=1,f2=1,f3=1,f4=1;
+    $( window ).on( "orientationchange", function() {
+        wid=$(window).width()-35;
+        hei=$(window).height()-$('.navbar').height()-59;
+        f.width(wid+18);
+        if(f4==1)
+        {
+            if(f1==1 || f2==1 || f3==1)
+            {
+                f.height(hei/2);
+            }
+            else
+            {
+                f.height(hei);
+            }
+        }
+        if (f1==1)
+        {
+            if(f4==1)
+            {
+                h.height(hei/2);
+            }
+            else
+            {
+                h.height(hei);
+            }
+            if(f2==1 && f3==1)
+            {
+                h.width(wid/3);
+            }
+            else if(f2==1 || f3==1)
+            {
+                h.width((wid/2)+3);
+            }
+            else
+            {
+                h.width(wid+12);
+            }
+        }
+        if (f2==1)
+        {
+            if(f4==1)
+            {
+                c.height(hei/2);
+            }
+            else
+            {
+                c.height(hei);
+            }
+            if(f1==1 && f3==1)
+            {
+                c.width(wid/3);
+            }
+            else if(f1==1 || f3==1)
+            {
+                c.width((wid/2)+3);
+            }
+            else
+            {
+                c.width(wid+12);
+            }
+        }
+        if (f3==1)
+        {
+            if(f4==1)
+            {
+                j.height(hei/2);
+            }
+            else
+            {
+                j.height(hei);
+            }
+            if(f1==1 && f2==1)
+            {
+                j.width(wid/3);
+            }
+            else if(f1==1 || f2==1)
+            {
+                j.width((wid/2)+3);
+            }
+            else
+            {
+                j.width(wid+12);
+            }
+        }
+    });
     $('#rst').click(function(){
         $("#html").val("");
         $("#css").val("");
