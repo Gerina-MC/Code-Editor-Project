@@ -50,6 +50,7 @@
 textarea {
   resize: none;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .label-in-textarea {
