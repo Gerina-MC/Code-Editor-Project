@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var wid=$(window).width()-35;
+    var wid=$(window).width()-50;
     var hei=$(window).height()-$('.navbar').height()-59;
     var h=$("#html");
     var c=$("#css");
