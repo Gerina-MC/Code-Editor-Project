@@ -15,6 +15,7 @@ $(document).ready(function() {
     f.width(wid+18);
     var f1=1,f2=1,f3=1,f4=1;
     $( window ).on( "orientationchange", function() {
+        $(window).orientationchange();
         wid=$(window).width()-35;
         hei=$(window).height()-$('.navbar').height()-59;
         f.width(wid+18);
